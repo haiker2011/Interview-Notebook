@@ -25,7 +25,7 @@
 
 ## Collection
 
-<div align="center"> <img src="../pics//VP4n3i8m34Ntd28NQ4_0KCJ2q044Oez.png"/> </div><br>
+<div align="center"> <img src="../pics//VP6n3i8W48Ptde8NQ9_0eSR5eOD6uqx.png"/> </div><br>
 
 ### 1. Set
 
@@ -100,7 +100,7 @@ List list = Arrays.asList(arr);
 也可以使用以下方式调用 asList()：
 
 ```java
-List list = Arrays.asList(1,2,3);
+List list = Arrays.asList(1, 2, 3);
 ```
 
 # 三、源码分析
@@ -575,7 +575,7 @@ int hash = hash(key);
 int i = indexFor(hash, table.length);
 ```
 
-（一）计算 hash 值
+**4.1 计算 hash 值** 
 
 ```java
 final int hash(Object k) {
@@ -600,7 +600,7 @@ public final int hashCode() {
 }
 ```
 
-（二）取模
+**4.2 取模** 
 
 令 x = 1<<4，即 x 为 2 的 4 次方，它具有以下性质：
 
@@ -727,10 +727,10 @@ new capacity : 00100000
 
 对于一个 Key，
 
-- 它的哈希值如果在第 5 位上为 0，那么取模得到的结果和之前一样；
+- 它的哈希值如果在第 6 位上为 0，那么取模得到的结果和之前一样；
 - 如果为 1，那么得到的结果为原来的结果 +16。
 
-### 7. 扩容-计算数组容量
+### 7. 计算数组容量
 
 HashMap 构造函数允许用户传入的容量不是 2 的 n 次方，因为它可以自动地将传入的容量转换为 2 的 n 次方。
 
