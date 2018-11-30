@@ -724,7 +724,7 @@ private char[][] buildMatrix(char[] array) {
 
 地上有一个 m 行和 n 列的方格。一个机器人从坐标 (0, 0) 的格子开始移动，每一次只能向左右上下四个方向移动一格，但是不能进入行坐标和列坐标的数位之和大于 k 的格子。
 
-例如，当 k 为 18 时，机器人能够进入方格 (35,37)，因为 3+5+3+7=18。但是，它不能进入方格 (35,37)，因为 3+5+3+8=19。请问该机器人能够达到多少个格子？
+例如，当 k 为 18 时，机器人能够进入方格 (35,37)，因为 3+5+3+7=18。但是，它不能进入方格 (35,38)，因为 3+5+3+8=19。请问该机器人能够达到多少个格子？
 
 ## 解题思路
 
@@ -1160,7 +1160,7 @@ public ListNode FindKthToTail(ListNode head, int k) {
 
 在相遇点，slow 要到环的入口点还需要移动 z 个节点，如果让 fast 重新从头开始移动，并且速度变为每次移动一个节点，那么它到环入口点还需要移动 x 个节点。在上面已经推导出 x=z，因此 fast 和 slow 将在环入口点相遇。
 
-<div align="center"> <img src="../pics//70fa1f83-dae7-456d-b94b-ce28963b2ba1.png"/> </div><br>
+<div align="center"> <img src="../pics//70fa1f83-dae7-456d-b94b-ce28963b2ba1.png" width="500"/> </div><br>
 
 ```java
 public ListNode EntryNodeOfLoop(ListNode pHead) {
@@ -2690,8 +2690,8 @@ public ArrayList<Integer> maxInWindows(int[] num, int size) {
     for (int i = 0; i < size; i++)
         heap.add(num[i]);
     ret.add(heap.peek());
-    for (int i = 1, j = i + size - 1; j < num.length; i++, j++) {            /* 维护一个大小为 size 的大顶堆 */
-        heap.remove(num[i - 1]);
+    for (int i = 0, j = i + size; j < num.length; i++, j++) {            /* 维护一个大小为 size 的大顶堆 */
+        heap.remove(num[i]);
         heap.add(num[j]);
         ret.add(heap.peek());
     }
