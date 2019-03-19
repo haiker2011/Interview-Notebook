@@ -27,6 +27,83 @@
     <img src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" width="200px">
 </div>
 
+### :pencil2: 算法
+
+- [剑指 Offer 题解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/剑指%20offer%20题解.md)
+
+  目录根据原书第二版进行编排，代码和原书有所不同，尽量比原书更简洁。
+
+- [Leetcode 题解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Leetcode%20题解.md)
+
+  对题目做了一个大致分类，并对每种题型的解题思路做了总结。
+  
+ - [算法](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/算法.md)
+
+   排序、并查集、栈和队列、红黑树、散列表。
+   
+ - [面试算法整理](https://github.com/haiker2011/Interview-Notebook/blob/master/notes/面试总结.md)
+
+   主要是对公司面试的算法题目进行总结整理，方便自己查阅。
+
+### :computer: 操作系统
+
+- [计算机操作系统](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/计算机操作系统.md)
+
+  进程管理、内存管理、设备管理、链接。
+
+- [Linux](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Linux.md)
+
+  基本实现原理以及基本操作。
+
+### :cloud: 网络 
+
+- [计算机网络](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/计算机网络.md)
+
+  物理层、链路层、网络层、运输层、应用层。
+
+- [HTTP](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/HTTP.md)
+
+  方法、状态码、Cookie、缓存、连接管理、HTTPs、HTTP 2.0。
+
+- [Socket](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Socket.md)
+
+  I/O 模型、I/O 多路复用。
+
+### :couple: 面向对象
+
+- [设计模式](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/设计模式.md)
+
+  实现了 Gof 的 23 种设计模式。
+
+- [面向对象思想](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/面向对象思想.md)
+
+  三大原则（继承、封装、多态）、类图、设计原则。
+
+### :floppy_disk: 数据库 
+
+- [数据库系统原理](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/数据库系统原理.md)
+
+  事务、锁、隔离级别、MVCC、间隙锁、范式。
+
+- [SQL](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/SQL.md)
+
+  SQL 基本语法。
+
+- [Leetcode-Database 题解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Leetcode-Database%20题解.md)
+>>>>>>> master
+
+🎓 本项目包含了技术面试必备的基础知识，内容浅显易懂，你不需要花很长的时间去阅读和理解成堆的技术书籍就可以快速掌握这些知识，从而节省宝贵的面试复习时间。
+
+🎨 推荐使用 https://cyc2018.github.io/CS-Notes 进行阅读，从而获得更好的阅读体验。
+
+💯你也可以订阅 <a href="https://xiaozhuanlan.com/CyC2018">面试进阶指南</a>，包含了学习指导和面试技巧，让你更轻松拿到满意的 Offer。
+
+⭐️ 欢迎关注我的公众号 CyC2018，这里有最核心的高频基础知识面试题，后台回复关键字 📚 “资料” 可领取复习大纲 ，帮你理清多而杂的面试知识点。
+
+<div align="center">
+    <img src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" width="200px">
+</div>
+
 
 ## :pencil2: 算法
 
